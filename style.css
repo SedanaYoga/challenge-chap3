@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  z-index: 10;
+}
+.nav-container {
+  height: 100%;
+  padding: 0 200px 0 200px;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.navmenu {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  /* background: gray; */
+}
+
+.access {
+  width: 120px;
+  /* background: gray; */
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-bg-container {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  /* background: salmon; */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-bg {
+  /* position: absolute; */
+  width: 100%;
+  z-index: -1;
+  top: -2px;
+  background: radial-gradient(
+    189.96% 61.18% at 50% 38.82%,
+    rgba(255, 181, 72, 0) 0%,
+    rgba(52, 44, 29, 0.80319) 73.22%,
+    #08090a 99.74%
+  );
+}
+
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 589.02px;
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.hero-info {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* background: yellow; */
+}
+
+.hero-info > h1 {
+  font-size: 72px;
+  color: white;
+}
+
+.hero-info > p {
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+}
+.hero-info > button {
+  width: 260.36px;
+  height: 60px;
+  font-weight: 700;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+}
+.scroll-the-story {
+  position: absolute;
+  bottom: -620px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 32.79px;
+  cursor: pointer;
+}
